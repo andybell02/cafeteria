@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(218, 158, 158);
+
+}
+
+.titulo {
+   
+    font-size: 2cm;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    left: 30%;
+}
+
+.cafe1 {
+    border-radius: 10px;
+    top: 20px;
+}
+
+.menu {
+    color: aliceblue;
+}
+
+.cafes {
+
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.tortas {
+
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+   
+}
+
+.bebidas {
+
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(255, 251, 251);
+}
+
+.fondo {
+    margin: 2cm;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    background-size: 2000px 2000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://imgs.search.brave.com/fja18_i3BN8np3Y97goHPMXG3H9VQf4WZbRFPahnB0o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzgzL2Vk/LzBlLzgzZWQwZTA0/ZDM2YzMzMDM4ZDcx/NGU1ODI1Nzc4OGI5/LmpwZw");
+}
+
+.price {
+    font-weight: bold;
+
+}
