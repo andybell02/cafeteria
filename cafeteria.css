@@ -1,15 +1,43 @@
 body {
-    background-color: rgb(218, 158, 158);
+    background-color: rgb(187, 116, 116);
 
 }
 
 .titulo {
-   
     font-size: 2cm;
     color: rgb(255, 255, 255);
     font-style: oblique;
-    left: 30%;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: 1.5cm;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.2cm;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1cm;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
 
 .cafe1 {
     border-radius: 10px;
